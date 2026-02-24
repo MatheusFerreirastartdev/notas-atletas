@@ -22,7 +22,7 @@ for (let i = 0; i < atletas.length; i++) {
 
   let nome = atletas[i].nome;
   let notas = atletas[i].notas.sort((a, b) => a - b);
-
+}
   let notasValidas = notas.slice(1, notas.length - 1);
 
   let soma = 0;
